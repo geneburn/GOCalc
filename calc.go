@@ -56,8 +56,6 @@ func main() {
 			panic("Ошибка. Вводимое число должно быть не меньше -10 и не больше 10!")
 		}
 
-		fmt.Println("OK, let's GO:", firstNum, operation, secondNum)
-
 		if operation == "+" {
 			result := firstNum + secondNum
 			if err != nil {
